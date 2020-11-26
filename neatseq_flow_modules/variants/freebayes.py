@@ -213,7 +213,7 @@ class Step_freebayes(Step):
                 sample_dir = self.make_folder_for_sample(sample)
 
                 # Name of specific script:
-                self.set_spec_script_name(sample=True) #"_".join([self.step,self.name,sample])
+                self.set_spec_script_name(sample) #"_".join([self.step,self.name,sample])
                 self.script = ""
                 
                 
